@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SafeCommute</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🌙 SafeCommute</h1>
+
+    <input type="text" id="destination" placeholder="Enter destination">
+
+    <div class="row button-row">
+        <button id="startBtn" class="btn-primary">🚕 Start Trip</button>
+        <button id="stopBtn" class="btn-ghost" style="display:none">■ Stop</button>
+    </div>
+
+    <div class="row button-row">
+        <button id="sosBtn" class="btn-primary">🚨 SOS</button>
+        <button id="fakeCallBtn" class="btn-ghost">📞 Fake Call</button>
+    </div>
+
+    <!-- small inline map card placed between SOS and Share buttons -->
+    <div class="inline-map-card glass-card">
+        <div id="miniMap" class="mini-map inline" title="Open map"></div>
+    </div>
+
+    <div class="row button-row">
+        <button id="shareBtn" class="btn-ghost">📍 Share Location</button>
+        <button id="viewMapBtn" class="btn-ghost">🗺️ View Map</button>
+    </div>
+
+    <div id="status" aria-live="polite">Status: Waiting...</div>
+
+    <div id="coords" class="muted" style="margin-top:8px">Coordinates: —</div>
+
+    <div>
+        <h3>Check-in Timer (minutes)</h3>
+        <input type="number" id="timerInput" placeholder="Enter minutes">
+        <button id="timerBtn" class="btn-primary">Start Timer</button>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Modal map popup -->
+    <div id="mapModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <button id="closeMap" class="close-btn" aria-label="Close map">✕</button>
+            <div id="modalMap" class="modal-map"></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
