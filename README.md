@@ -17,7 +17,7 @@ A minimal, iOS-style safety application for secure commuting with real-time loca
 - Member 2: Niranjana - St.Joseph's College Autonomous, Devagiri
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://safe-commute-five.vercel.app/
 
 ### Project Description
 SafeCommute is a modern, user-friendly safety application designed to provide peace of mind during commutes. It features real-time GPS tracking, emergency SOS alerts with automatic WhatsApp sharing, check-in timers, and a beautiful frosted glass UI with soft lavender and blush color palette inspired by iOS design principles.
