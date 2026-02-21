@@ -128,16 +128,27 @@ Then open `http://localhost:8000/doctype.html` in your browser.
 
 ### For Software:
 
-#### Screenshots (Add at least 3)
+#### Screenshots
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+**Screenshot 1: Home Screen with Mini Map**
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](./screenshots/1.png)
+*Main SafeCommute interface showing the destination input field, Start Trip and SOS buttons, and the embedded mini map displaying current location with soft lavender UI and frosted glass design.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+**Screenshot 2: Active Trip Tracking**
+
+![Screenshot2](./screenshots/2.png)
+*Real-time tracking view showing active trip status with "Trip Started... Tracking location" message, live coordinates display with accuracy in meters, map centered on user location with accuracy circle marker.*
+
+**Screenshot 3: Emergency SOS - WhatsApp Alert Ready**
+
+![Screenshot3](./screenshots/3.png)
+*Emergency SOS activated showing muted rose gradient button, automatic WhatsApp integration tooltip showing location will be shared, and audio recording initialized message for evidence collection.*
+
+**Screenshot 4: Check-in Timer & Full Map Modal**
+
+![Screenshot4](./screenshots/4.png)
+*Check-in timer interface showing minutes input field with lavender gradient button, and full-screen interactive map modal displaying Leaflet map with zoom controls, location marker with accuracy circle, and soft pastel styling.*
 
 #### Diagrams
 
